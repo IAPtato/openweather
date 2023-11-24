@@ -1,0 +1,97 @@
+scroll derecha 
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
+
+https://www.minecrafteo.com/wp-content/uploads/2015/08/dramatic-skys-texture-pack.jpg
+
+
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+  <datalist id="datalistOptions">
+    <option value="Guayaquil">
+    <option value="Quito">
+    <option value="Manta">
+    <option value="Los Rios">
+    <option value="Machala">
+  </datalist>
+
+
+  <h5 class="card-title">Guayaquil &#9925;</h5>
+
+
+  <body>
+    <h1>Lista de Datos</h1>
+    <ul>
+        {% for dato in datos %}
+            <li>{{ dato }}</li>
+        {% endfor %}
+    </ul>
+    <form action="/agregar_dato" method="post">
+        <label for="nuevo_dato">Nuevo Dato:</label>
+        <input type="text" id="nuevo_dato" name="nuevo_dato" required>
+        <button type="submit">Agregar</button>
+    </form>
+</body>
+
+
+<div>
+    <h1 class=" text-white text-center"> Open weather code</h1>
+  </div>
+
+  <label for="exampleDataList" class="form-label">Datalist example</label>
+
+
+
+
+
+
+  <form action="/lista" method="POST" <div class="input-group flex-nowrap">
+    <i class="bi bi-broadcast"></i>
+    <span class="input-group-text" id="addon-wrapping">@</span>
+    <input type="text" class="form-control" placeholder="Ingresa la ciudad" aria-label='city'
+      id= "nuevo_dato" aria-describedby="addon-wrapping" required>
+    <button type="submit" class=" btn btn-outline-info" style="background-color:gray;">Buscar</button>
+    </div>
+  </form>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h1>Lista de Datos</h1>
+          <ul>
+            {% for dato in datos %}
+            <li>{{ dato }}</li>
+            {% endfor %}
+          </ul>
+          <h4 class="card-title">{{rj.ciudad}}</h4>
+          <p class="card-text">{{rj.descripcion}}</p>
+          <p class="card-text">{{rj.temperatura}}</p>
+          <p class="card-text">{{rj.pais}}</p>
+
+
+          <p class="card-text"><i class="bi bi-sun-fill"></i></p>
+          <a href="#" class="btn btn-danger"><i class="bi bi-trash-fill"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Quito&#9748;</h5>
+          <p class="card-text"><i class="bi bi-umbrella"></i></p>
+          <a href="#" class="btn btn-danger"><i class="bi bi-trash-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>

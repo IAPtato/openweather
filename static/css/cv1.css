@@ -1,0 +1,180 @@
+.navbar{
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+.navbar-collapse {
+    align-items: center; /*alinea los elementos en el cetro*/  
+    justify-content: space-between; /* justifica el estpacio contenido entre los elementos*/
+}
+
+/*adaptable-responsive*/
+@media screen and (max-width: 767px){
+    .navbar-brand{ display: none;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; /*eje principal */
+    justify-content:center; /* eje perpendicular*/
+    font-family: 'Inconsolata', monospace;
+}
+
+h1{
+    font-size:3rem; /*tamaño de letra*/
+    font-family: 'Inconsolata', monospace;/*tipo de letra, googlefonts*/
+
+}
+
+.seccion-oscura{
+    background-color:white;
+    color:black;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.hero {
+    background-color:whitesmoke; /*color de fondo*/
+    min-height:450px; /*altura minima*/
+    text-align: center;
+}
+
+/*acerca de mi*/
+.acerca-mi{
+    height: 500px;/*altura*/
+    padding: 10px;
+}
+
+.hero-principal {
+    padding: 5rem;
+    
+
+}
+
+.foto-perfil{
+    width: 300px;  /*ancho*/
+    height: 300px; /*alto*/
+    /* border-radius: 50%; /*borde*/
+    margin:20px; /*margen*/
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color:grey;
+    font-family: 'Inconsolata', monospace;
+}
+
+.acerca-mi .contenedor{
+    max-width:600px; /*ancho max*/
+    text-align:center;
+}
+
+.seccion-titulo{
+    font-size: 3rem;
+    padding:15px 0;
+
+}
+
+.seccion-texto{
+    font-size: 1.5rem;
+}
+
+.informacion{
+    padding: 40px 40px 60px 40px;
+
+}
+
+.informacion2{
+    padding: 40px 40px 60px 40px;
+}
+
+.informacion .columna{
+    padding: 20px;
+    border: 2px solid grey;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.informacion2 .columna2{
+    padding: 20px;
+    border: 2px solid grey;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.informacion .row div { 
+    height:250px;
+    background-color:white;
+    
+
+}
+
+.educacion{
+    font-weight: bold;
+    margin: 10 0;
+}
+
+.cursos{
+    font-weight: bold;
+    margin: 10 0;
+}
+
+.habilidades{
+    font-weight: bold;
+    margin: 10 0;
+}
+
+.experiencia{
+    font-weight: bold;
+    margin: 10 0;
+}
+
+.pasantias{
+    font-weight: bold;
+    margin: 10 0;
+}
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+  
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
