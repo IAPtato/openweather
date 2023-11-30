@@ -26,26 +26,22 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <form action="/prueba" method="POST" <div class="input-group flex-nowrap">
+        <form action="/rjson2" method="POST" <div class="input-group flex-nowrap">
           <span class="input-group-text" id="addon-wrapping"><i class="bi bi-cloudy"></i></span>
-          <input type="text" class="form-control" placeholder="Ingresa la ciudad" name="buscar"
+          <input type="search" class="form-control" placeholder="Ingresa la ciudad" name="buscar"
           aria-describedby="addon-wrapping" required>
           <div class="col-sm-3"> </div>
           <div class="col-sm-3">
             <button type="submit" class="btn btn-outline-black" " style=" background-color:whitesmoke;">Buscar</button>
           </div>
+
       </div>
       </form>
+      <br>
     </div>
   </div>
   </div>
-
-
   <br>
-  <br>
-  <br>
-
-
   <div>
     <div class="container">
       <table class="table" >
@@ -60,16 +56,31 @@
         </thead>
         <body>
           <tr>
-            <td>{{rjson.nombre}}</td>
-            <td>{{rjson.descripcion}}</td>
-            <td>{{rjson.temperatura}}</td>
-            <td>{{rjson.pais}}</td>
-            <td>{{rjson.icon}}</td>
+            <td>{{rj.nombre}}</td>
+            <td>{{rj.descripcion}}</td>
+            <td>{{rj.temperatura}}</td>
+            <td>{{rj.pais}}</td>
+            <td>{{rj.icon}}</td>
           </tr>
         </body>
       </table>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-sm-6 text-center">
+      <div class="card">
+        <div class="card-body">
+          
+          <h4 class="card-title"></h4>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+          <p class="card-text"><i class="bi bi-sun-fill"></i></p>
+          <a href="#" class="btn btn-danger"><i class="bi bi-trash-fill"></i></a>
+        </div>
+      </div>
+    </div>
 
 </body>
 

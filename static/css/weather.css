@@ -1,7 +1,33 @@
 body {
-    background-image: url('https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg');
+    background-image: url('https://wallpaperaccess.com/full/2199252.jpg');
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen */
-    background-repeat: repeat; /* Evita la repetición de la imagen */
+    background-repeat:no-repeat; /* Evita la repetición de la imagen */
+    background-color:mistyrose;
+    
 }
 
+div form1 {
+    background-color:blanchedalmond;
+    color: aliceblue;
+}
+
+h1 open{
+    background-color: aquamarine;
+}
+
+div sdvsdf {
+  /*height:10px; /*altura*/
+  background-color:aqua ; /*color de fondo*/
+  color: black; /*color de letra*/
+  /*font-size: 50px; /*tamaño de letra*/
+  margin:10px; /*margenes*/
+
+
+}
+
+
+
+/*imagenes*/
+/*https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg*/
+/*https://wallpaperaccess.com/full/2199252.jpg*/
